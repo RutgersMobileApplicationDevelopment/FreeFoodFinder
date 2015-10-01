@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
 
 
-                Intent intent = new Intent(MainActivity.this,ShowEventsListActivity.class);
+                Intent intent = new Intent(MainActivity.this,TabActivity.class);
 
                 intent.putExtra("campus",BUSCH);
 
